@@ -1,0 +1,219 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after::before {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+    margin: 0 auto;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  padding: 0 15px;
+  max-width: 1205px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.home__page {
+  display: flex;
+  flex-direction: column;
+  gap: 84px;
+  margin: 0 auto;
+  /* Выделение блока */
+  border: 5px solid #000;
+}
+
+.header {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  width: 100%;
+  /* Выделение блока */
+  border: 5px solid #0150e9;
+}
+
+.header__logo {
+  width: 137px;
+  height: 40px;
+}
+
+.header__menu-list {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  /* Выделение блока */
+  border: 5px solid #20c905;
+}
+
+.header__item {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #000;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header__item:hover .header__link {
+  color: #f25822;
+}
+
+.header__link {
+  transition: color 0.3s ease-in-out;
+}
+
+.header__item-list {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.header__item-list::before {
+  content: url(/images/arrow.svg);
+  width: 10px;
+  height: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.header__item-list:hover::before {
+  transform: rotate(180deg);
+}
+
+.home__container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* Выделение блока */
+  border: 5px solid #E99C08;
+}
+
+.home__meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  width: 50%;
+  /* Выделение блока */
+  border: 5px solid #BD0EFB;
+}
+
+.home__title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.title__text {
+  color: #000;
+  font-family: "Inter";
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 120%; /* 72px */
+}
+
+.subtitle__text {
+  color: #888;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+}
+
+.button__meta {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  align-self: stretch;
+  /* Выделение текста */
+  border: 5px solid #FF1DA4;
+}
+
+.button {
+  display: flex;
+  width: 140px;
+  padding: 16px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 56px;
+  border: 1px solid transparent;
+  background: #f25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.button__text {
+  color: #aaa;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.brend__container {
+  display: flex;
+  width: 100%;
+  padding: 100px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+     /* Выделение текста */
+  border: 5px solid #19FBFB;
+}
+
+.brend__list {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  padding: 100px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
