@@ -49,8 +49,6 @@ body {
   flex-direction: column;
   gap: 84px;
   margin: 0 auto;
-  /* Выделение блока */
-  border: 5px solid #000;
 }
 
 .header {
@@ -64,8 +62,6 @@ body {
   gap: 10px;
   justify-content: space-between;
   width: 100%;
-  /* Выделение блока */
-  border: 5px solid #0150e9;
 }
 
 .header__logo {
@@ -77,8 +73,6 @@ body {
   display: flex;
   align-items: flex-start;
   gap: 14px;
-  /* Выделение блока */
-  border: 5px solid #20c905;
 }
 
 .header__item {
@@ -125,8 +119,6 @@ body {
   width: 100%;
   justify-content: space-between;
   align-items: flex-start;
-  /* Выделение блока */
-  border: 5px solid #E99C08;
 }
 
 .home__meta {
@@ -135,8 +127,6 @@ body {
   align-items: flex-start;
   gap: 32px;
   width: 50%;
-  /* Выделение блока */
-  border: 5px solid #BD0EFB;
 }
 
 .home__title {
@@ -151,7 +141,7 @@ body {
   font-family: "Inter";
   font-size: 60px;
   font-weight: 700;
-  line-height: 120%; /* 72px */
+  line-height: 120%;
 }
 
 .subtitle__text {
@@ -159,7 +149,7 @@ body {
   font-family: "Inter";
   font-size: 20px;
   font-weight: 400;
-  line-height: 140%; /* 28px */
+  line-height: 140%; 
 }
 
 .button__meta {
@@ -167,8 +157,6 @@ body {
   align-items: center;
   gap: 48px;
   align-self: stretch;
-  /* Выделение текста */
-  border: 5px solid #FF1DA4;
 }
 
 .button {
@@ -204,8 +192,6 @@ body {
   justify-content: center;
   align-items: center;
   gap: 48px;
-     /* Выделение текста */
-  border: 5px solid #19FBFB;
 }
 
 .brend__list {
