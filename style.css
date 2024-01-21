@@ -44,6 +44,10 @@ body {
   margin: 0 auto;
 }
 
+.home {
+  margin-top: 42.0px;
+}
+
 .home__page {
   display: flex;
   flex-direction: column;
@@ -103,15 +107,14 @@ body {
   gap: 4px;
 }
 
-.header__item-list::before {
+.header__item-list::after {
   content: url(/images/arrow.svg);
-  width: 10px;
-  height: 10px;
+  
   transition: transform 0.3s ease-in-out;
 }
 
-.header__item-list:hover::before {
-  transform: rotate(180deg);
+.header__item-list:hover::after {
+  transform: translateY(2px) rotate(180deg);
 }
 
 .home__container {
@@ -185,10 +188,13 @@ body {
   line-height: normal;
 }
 
+.brend {
+  margin-top: 42px;
+}
+
 .brend__container {
   display: flex;
   width: 100%;
-  padding: 100px 0px;
   justify-content: center;
   align-items: center;
   gap: 48px;
