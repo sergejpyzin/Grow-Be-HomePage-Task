@@ -226,10 +226,8 @@ body {
 }
 
 .features__item:hover {
-  /* padding: 40px 34px; */
-  background: #fff;
   box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
-  transform: translate3d(100deg);
+  transform: scale(1.2);
 }
 
 .features__item-image {
