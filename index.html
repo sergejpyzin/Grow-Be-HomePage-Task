@@ -3,12 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
+    
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -23,16 +18,16 @@
         <nav class="header__menu">
           <ui class="header__menu-list">
             <li class="header__item">
-              <a class="header__link" href="#">Home</a>
+              <a class="header__link" href="#home">Home</a>
             </li>
             <li class="header__item">
-              <a class="header__link" href="#">About Us</a>
+              <a class="header__link" href="#about-us">About Us</a>
             </li>
             <li class="header__item">
-              <a class="header__link" href="#">Services</a>
+              <a class="header__link" href="#services">Services</a>
             </li>
             <li class="header__item header__item-list">
-              <a class="header__link" href="#">Features</a>
+              <a class="header__link" href="#features">Features</a>
             </li>
             <li class="header__item">
               <a class="header__link" href="#">Team</a>
@@ -48,14 +43,14 @@
       </div>
     </header>
     <main class="main">
-      <section class="home">
+      <section class="home" id="home">
         <div class="container home__container">
           <div class="home__meta">
-            <div class="home__title">
-              <h1 class="title__text">
+            <div class="title__box home__title title">
+              <h1 class="title__title home__title-title">
                 SEO & Digital Marketing For Your Website.
               </h1>
-              <p class="subtitle__text">
+              <p class="title__subtitle">
                 Provide all kind of seo services and help to improve seo
                 ranking. Globally incubate standards.
               </p>
@@ -73,7 +68,7 @@
           />
         </div>
       </section>
-      <section class="brend">
+      <section class="brend" id="brend">
         <div class="container brend__container">
           <ul class="brend__list">
             <li class="brend__logo">
@@ -97,20 +92,19 @@
           </ul>
         </div>
       </section>
-      <section class="about-us">
+      <section class="about-us" id="about-us">
         <div class="container about-us__container">
-          <div class="about-us__title">
-            <h2 class="about-us__tittle-text">Perfect Solution For Your Business</h2>
-            <p class="title__paragreph-text">Distinctively exploit optimal alignments for intuitive bandwidth. 
+          <div class="title__box title about-us__title">
+            <h2 class="title__title">Perfect Solution For Your Business</h2>
+            <p class="title__subtitle">Distinctively exploit optimal alignments for intuitive bandwidth. 
               Quicklycoordinate e-business applications through revolutionary catalysts for chang the 
-              Seamlessly underwhelm optimal testing procedures.
-            </p>
-            <button class="button">Learn More</button>
+              Seamlessly underwhelm optimal testing procedures.</p>
+              <button class="button">Learn More</button>
           </div>
           <img src="/images/macbook.svg" alt="macbook" class="about-us__image">
         </div>
       </section>
-      <section class="features">
+      <section class="features" id="features">
         <div class="container features__container">
           <div class="features__item">
             <img
@@ -159,11 +153,11 @@
           </div>
         </div>
       </section>
-      <sections class="services">
+      <sections class="services" id="services">
         <div class="container services__container">
-          <div class="services__title">
-              <h2 class="title__text services__title-text">Why You Should Choose Us.</h2>
-              <p class="title__paragreph-text services__title-paragraph">Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate e-business
+          <div class="title__box title services__title">
+              <h2 class="title__title services__title-text">Why You Should Choose Us.</h2>
+              <p class="title__subtitle services__title-paragraph">Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate e-business
                 applications through revolutionary catalysts.</p>
           </div>
           <ul class="services__cards">
