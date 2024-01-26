@@ -41,7 +41,7 @@ body {
   padding: 0 15px;
   max-width: 1205px;
   width: 100%;
-  margin: 75px auto;
+  margin: 0 auto;
 }
 
 .home {
@@ -145,6 +145,19 @@ body {
   font-size: 60px;
   font-weight: 700;
   line-height: 120%;
+  text-align: left;
+  position: relative;
+}
+
+.title__text::before{
+  content: "";
+  position: absolute;
+  top: 75px;
+  left: -25px;
+  width: 314px;
+  height: 75px;
+  border: 1px solid #F25822;
+  border-radius: 50%;
 }
 
 .subtitle__text {
@@ -177,6 +190,7 @@ body {
   font-family: Inter;
   font-size: 16px;
   font-weight: 600;
+  margin-top: 20px;
 }
 
 .button__text {
@@ -186,6 +200,11 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+.button__image{
+  width: 30px;
+  height: 30px;
 }
 
 .brend {
@@ -317,3 +336,32 @@ body {
   font-weight: 400;
   line-height: 150%;
 }
+
+.about-us__container {
+  display: flex;
+  align-items: center;
+}
+
+.about-us__title {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.about-us__tittle-text{
+  color: #000;
+  font-family: "Inter";
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: left;
+}
+
+
+.about-us__image {
+  width: 60%;
+  max-width: 650px;
+}
+
+
+
